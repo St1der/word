@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="triangle_icon_144069 %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="triangle_icon_144069 (1).png" />
+  </ItemGroup>
+
+</Project>
